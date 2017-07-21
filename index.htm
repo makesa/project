@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  ––––––––––––––––––––––––––––––––––––––––––––––––––-->
+  <meta charset="utf-8">
+  <title>Makesa Potts | Graphic Portfolio</title>
+  <meta name="description" content="Portfolio for Makesa Potts, Louisville, Ky.">
+  <meta name="author" content="Makesa Potts">
+
+  
+   <!-- CSS  ------------------––––––––––––––––––-->
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <link rel="stylesheet" href="css/magnific-popup.css">
+
+
+  <link href="contains/design.css" rel="stylesheet" type="text/css">
+  
+
+ <link href="contains/layout.css" rel="stylesheet" type="text/css">
+  
+
+  
+  <!-- Scripts ––––––––––––––––––––––––––––––––––-->  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="respond.min.js"></script>
+
+
+  	
+  <!-- Favicon ––––––––––––––––--------------------->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+<div id="header" class="intro">makesa potts</div>
+  
+  <div id="title" class="intro">graphics portfolio</div>
+  <div style="display:block; padding:3%;" align="center"  ><button type="button" style="font-size:14px; color:blue" onclick="document.getElementById('header').style.fontSize='24px'">Change font size!</button>  &nbsp;<button type="button" style="font-size:14px; color:purple" onclick="document.getElementById('title').style.fontFamily='Arial'">Change font!</button></div>
+  <div class="gridContainer clearfix">
+  <div class="gallery both" id="gallery1"><a class="image-link" href="images/KenndyP.jpg"><center><img src="images/thumbs/tn_KenndyP.jpg" /></center></a></div>
+  <div class="gallery none" id="gallery2"><a class="image-link" href="images/b_Graphics.png"><center><img src="images/thumbs/tn_b_Graphics.png" /></center></a></div>
+  <div class="gallery both" id="gallery3"><a class="image-link" href="images/floyd_in_color.png"><center><img src="images/thumbs/tn_floyd_in_color.png" /></center></a></div>
+  <div class="gallery none" id="gallery4"><a class="image-link" href="images/Hollywood_front_cover_glo.png"><center><img src="images/thumbs/tn_Hollywood_front_cover_glo.png" /></center></a></div>
+  <div class="gallery both" id="gallery5"><a class="image-link" href="images/25on25th-grace-front.jpg"><center><img src="images/thumbs/tn_25on25th-grace-front.jpg" /></center></a></div>
+  <div class="gallery none" id="gallery6"><a class="image-link" href="images/kennedy_cub_collar_beveled.png"><center><img src="images/thumbs/kennedy_cub_sweater.png" /></center></a></div>
+  <div class="gallery both" id="gallery7"><a class="image-link" href="images/Portfolio-logo.png"><center><img src="images/thumbs/tn_Portfolio-logo.png" /></center></a></div>
+  <div class="gallery none" id="gallery8"><a class="image-link" href="images/Kennedy_nameplate.png"><center><img src="images/thumbs/tn_Kennedy_nameplate.png"  /></center></a></div>
+  <div class="gallery both" id="gallery9"><a class="image-link" href="images/layout1.png"><center><img src="images/thumbs/tn_layout1.png" /></center></a></div>
+  <div class="gallery none" id="gallery10"><a class="image-link" href="images/monitor_bgd.jpg"><center><img src="images/thumbs/tn_monitor_bgd.jpg" /></center></a></div>
+  <div class="gallery both" id="gallery11"><a class="image-link" href="images/PolishClass.gif"><center><img src="images/thumbs/tn_PolishClass.gif" /></center></a></div>
+  <div class="gallery none" id="gallery12"><a class="image-link" href="images/kennedy_K.png"><center><img src="images/thumbs/tn_kennedy_K.png" /></center></a></center></div>
+  <div class="footer">&copy Copyright 2017 <a href="#">sitesxdesign.com</a></div>
+
+  <script src="scripts/jquery.magnific-popup.js"></script>
+  <script type="text/javascript">
+	 $('.image-link').magnificPopup({ 
+  type: 'image',
+  mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+
+  zoom: {
+    enabled: true, // By default it's false, so don't forget to enable it
+
+    duration: 300, // duration of the effect, in milliseconds
+    easing: 'ease-in-out', // CSS transition easing function 
+
+    // The "opener" function should return the element from which popup will be zoomed in
+    // and to which popup will be scaled down
+    // By defailt it looks for an image tag:
+    opener: function(openerElement) {
+      // openerElement is the element on which popup was initialized, in this case its <a> tag
+      // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+      return openerElement.is('img') ? openerElement : openerElement.find('img');
+    }
+  }
+
+});	</script>
+</body>
+</html>

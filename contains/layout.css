@@ -1,0 +1,52 @@
+/* CSS Document */
+
+/*--------------- Body----------------- */
+body {
+	background-color:#FFF;
+
+}
+/*---------------Gallery--------------- */
+.gallery {
+	width: 215px;
+	height:215px;
+
+}
+.gallery img {
+	align: center;
+	border-color:#903;
+	border:2px solid #903;
+	padding:2px;
+}
+.gallery img:hover{
+	opacity:0.8;
+}
+/*---------------Header---------------- */
+#header {
+	padding: 1%;
+	color: #C9F;
+	font-size: 400%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+	text-shadow: 3px 3px 1px #333;
+}
+
+#title {
+	padding: 1%;
+	color: #C9F;
+	font-size: 350%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+	text-shadow: 3px 3px 1px #333;
+}
+#portfolio {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text
+}
+
+/*---------------Footer---------------- */
+.footer {
+	padding-top:6%;
+	text-align:center;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:120%;
+}

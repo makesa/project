@@ -1,0 +1,285 @@
+
+/* Mobile Layout: 480px and below. */
+@media only screen and (max-width: 480px) {
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 88.626%;
+	padding-left: 1.1869%;
+	padding-right: 1.1869%;
+}
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#title {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#gallery1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#gallery2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#gallery3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#gallery4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#gallery5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#gallery6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#gallery7 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#gallery8 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#gallery9 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#gallery10 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#gallery11 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#gallery12 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#about {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+div.intro {
+	font-size:20%;
+	
+}
+}
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 91.4836%;
+	padding-left: 0.7581%;
+	padding-right: 0.7581%;
+}
+
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#title {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+div.both {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 49.1712%;
+	display: block;
+}
+div.none {
+	clear: none;
+	float: left;
+	margin-left: 1.6574%;
+	width: 49.1712%;
+	display: block;
+}
+
+.footer {
+	clear: both;
+	width: 100%;
+	display: block;
+	text-align:center;
+}
+
+}
+
+/* Desktop Layout: 800px to a max of 1200px. */
+
+@media only screen and (min-width: 900px) {
+.gridContainer {
+	width: 100%;
+	max-width: 1200px;
+	padding-left: 0%;
+	padding-right: 0%;
+	margin: auto;
+}
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 49.4505%;
+	display: block;
+}
+#title {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 41.0256%;
+	display: block;
+}
+#gallery1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 23%;
+	display: block;
+}
+#gallery2 {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 23%;
+	display: block;
+}
+#gallery3 {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 23%;
+	display: block;
+}
+#gallery4 {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 23%;
+	display: block;
+}
+#gallery5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 23%;
+	display: block;
+}
+#gallery6 {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 23%;
+	display: block;
+}
+#gallery7 {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 23%;
+	display: block;
+}
+#gallery8 {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 23%;
+	display: block;
+}
+#gallery9 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 23%;
+	display: block;
+}
+#gallery10 {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 23%;
+	display: block;
+}
+#gallery11 {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 23%;
+	display: block;
+}
+#gallery12 {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 23%;
+	display: block;
+}
+
+}
